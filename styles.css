@@ -18,23 +18,25 @@ body {
     margin-right: auto;
 }
 
-.header{
-    padding-top: 10px; 
+.header {
+    padding-top: 6px; 
     padding-bottom: 20px;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-
-    border: dashed #74617d;
 }
-
+#D9D9D91A
 .logo {
     font-family: Caramel;
     font-size: 60px;
 }
 
 .lang button {
+    background-color: #1E1E1E;
+}
 
+.content {
+    display: flex;
 }
 
 .left-side {
@@ -84,4 +86,41 @@ body {
     height: 50px;
     border-radius: 50%;
     padding: 4px;
+}
+
+.boards {
+    padding-left: 40px;
+}
+
+.board {
+    width: 240px;
+}
+
+.board__list-title {
+    text-align: center;
+    background-color: #000000;
+    opacity: 0.5;
+    padding: 5px 0;
+    border-radius: 25px;
+}
+
+.board__list {
+    margin-top: 10px;
+    padding-top: 10px;
+    width: 240px;
+    height: 545px;
+    background-color: #4B444F33;
+    border-radius: 25px;
+}
+
+.board__list li {
+    border-radius: 25px;
+    text-align: center;
+    background-color: #0000001A;
+    margin: 0 10px 10px 10px;
+    padding: 5px 0;
+}
+
+.board__settings {
+    background-color: #D9D9D91A;
 }
